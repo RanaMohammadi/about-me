@@ -44,7 +44,7 @@ p {
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -88,7 +88,7 @@ p {
 }
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -101,4 +101,27 @@ p {
 }
 .about-p {
   text-align: center;
+}
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  a {
+    margin-left: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .about-p {
+    text-align: left;
+  }
+  .email-link {
+    font-size: 18px;
+  }
 }
